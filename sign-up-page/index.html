@@ -2,10 +2,32 @@
 <html>
     <head>
         <title>Sign up page</title>
+        <link href="css/app.css" type="text/css" rel="stylesheet">
+        
     </head>
     <body>
         <div class="sign">
-            
+            <form>
+              <div class="name">
+                  First name:
+                <input type="text" name="username">
+                
+                Last name:
+                <input type="text" name="username"><br>
+                </div>
+
+              <div class="gender">
+                  <input type="radio" name="gender" value="male" checked> Male
+                 <input type="radio" name="gender" value="female"> Female
+                <input type="radio" name="gender" value="other"> Other
+                </div>  
+
+              <div class="submit">
+                  User password:<br>
+              <input type="password" name="psw"><br/>
+                <input type="submit" value="Submit">
+                </div>
+            </form>
         </div>
     </body>
 </html>
