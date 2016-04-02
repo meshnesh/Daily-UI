@@ -1,18 +1,28 @@
 body{
-    background-color: #000;
-    color: #fff;
+    background-color: #9ACD32;
+    color: #000;
+}
+form{
+    background-color: lightgrey;
+    width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;
 }
 .name{
-    padding-top: 20%;
+    padding: 10%;
     text-align: center;
     font-size: 2em;
 }
 .gender{
     text-align: center;
-    padding: 3%;
+    padding: 5%;
     font-size: 2em;
 }
 .submit{
     text-align: center;
     font-size: 2em;
+}
+.up{
+    font-size: 3em;
 }
