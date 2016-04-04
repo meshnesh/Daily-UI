@@ -7,27 +7,20 @@
     </head>
     <body>
         <div class="sign">
-            <form>
-              <div class="name">
-                  First name:
-                <input type="text" name="username">
-                
-                Last name:
-                <input type="text" name="username"><br>
-                </div>
-
-              <div class="gender">
-                  <input type="radio" name="gender" value="male" checked> Male
-                 <input type="radio" name="gender" value="female"> Female
-                <input type="radio" name="gender" value="other"> Other
-                </div>  
-
-              <div class="submit">
-                  User password:<br>
-              <input type="password" name="psw"><br/>
-                <input type="button" onclick="alert('Thanks for signing up!')" value="Sign up!" class="up">
-                </div>
-            </form>
+            <form class="login-form">
+  <p class="login-text">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-lock fa-stack-1x"></i>
+    </span>
+  </p>
+  <input type="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
+  <input type="password" class="login-password" required="true" placeholder="Password" />
+  <input type="submit" name="Login" value="Login" class="login-submit" />
+</form>
+<a href="#" class="login-forgot-pass">forgot password?</a>
+<div class="underlay-photo"></div>
+<div class="underlay-black"></div> 
         </div>
     </body>
 </html>
