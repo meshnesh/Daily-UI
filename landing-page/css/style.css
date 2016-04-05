@@ -14,6 +14,7 @@ body {
   smoothing: antialiased;
   text-rendering: optimizeLegibility;
      background: linear-gradient(to left,   #2c3e50 ,#fff);
+    
 }
 
 .wrapper {
@@ -50,6 +51,8 @@ body {
   min-height: 486px;
   background: white;
   border-radius: 5px;
+    background: linear-gradient(to left,  #fff ,#2c3e50 ,  #76c5b5 );
+    opacity: 1;
 }
 /*
 .box--bg {
@@ -72,8 +75,8 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(315deg, #76c5b5 0%, #536291 100%);
-  background: linear-gradient(135deg, #76c5b5 0%, #536291 100%);
+  background: -webkit-linear-gradient(315deg, #76c5b5 10%, #536291 90%);
+  background: linear-gradient(135deg, #76c5b5 10%, #536291 90%);
 }
 .box__brand {
     position: absolute;
@@ -88,7 +91,7 @@ body {
   position: relative;
   top: 36px;
   right: 30px;
-  font-size: 12px;
+  font-size: 20px;
   text-align: right;
 }
 .box__login-button {
@@ -163,7 +166,7 @@ body {
 
 .copy {
   margin-top: 20px;
-  font-size: 12px;
+  font-size: 25px;
   text-align: center;
 }
 .copy strong {
