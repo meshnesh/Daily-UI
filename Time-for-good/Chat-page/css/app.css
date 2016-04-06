@@ -23,12 +23,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.title {
+    text-align: center;
   padding: 7px 20px 10px;
   margin: 0 0 20px 0;
   background: #333;
   color: #FFF;
   width: 100%;
-  font-size: 1.4em;
+  font-size: 2.4em;
 }
 
 p.description {
