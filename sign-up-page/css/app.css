@@ -52,12 +52,14 @@ body{
   position: absolute;
 }
 .inner-container{
+/*
   width:400px;
   height:400px;
   position:absolute;
   top:calc(50vh - 200px);
   left:calc(50vw - 200px);
   overflow:hidden;
+*/
 }
 .bgvid.inner{
   top:calc(-50vh + 200px);
