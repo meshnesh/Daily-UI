@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700);
 body {
-  background-color: #eee;
+ background: linear-gradient(to left, #fff , #2c3e50);
 }
 
 .register-form {
@@ -30,37 +30,21 @@ h2 {
 input {
   display: block;
   width: 100%;
-  background: transparent;
   border: none;
   border-bottom: 1px solid #aaa;
-  padding: 30px 0px 10px 0px;
+  padding: 30px 0px 20px 0px;
   outline: none;
-  color: #666;
+    font-size: 1em;
+  background:transparent;
+  color:#000;
 }
 input:focus {
   border-bottom: 1px solid #333;
 }
 
-.register-btn {
-  width: 0px;
-  position: absolute;
-  margin-top: 30px;
-  background-color: #4CAF50;
-  color: #eee;
-  border-radius: 5px;
-  padding: 20px 0;
-  font-size: 18px;
-  outline: none;
-  -webkit-transition: .35s;
-  transition: .35s;
-}
-.register-btn:hover, .register-btn:focus {
-  background-color: #5cb860;
-  border: none;
-}
-.register-btn:active {
-  background-color: #3d8b40;
-}
+/*
+
+*/
 
 .material {
   position: relative;
