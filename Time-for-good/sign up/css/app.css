@@ -42,33 +42,6 @@ input:focus {
   border-bottom: 1px solid #333;
 }
 
-/*
-
-*/
-
-.material {
-  position: relative;
-  top: 30px;
-}
-
-.material-icons {
-  position: absolute;
-  right: 0;
-}
-
-.done {
-  color: #4CAF50;
-  display: none;
-}
-
-.error-i {
-  color: #f44336;
-  display: none;
-}
-
-.error {
-  color: #f44336;
-}
 
 label {
   position: relative;
@@ -83,17 +56,4 @@ a {
   margin-top: 30px;
   color: #666;
 }
-
-
-/*.box{*/
-/*
-  position:absolute;
-  height:50%;
-  width:75%;
-  font-family:Helvetica;
-  color:#fff;
-*/
-/*  background:rgba(0,0,0,0.13);*/
-/*  padding:30px 0px;*/
-/*}*/
 
