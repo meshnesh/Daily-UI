@@ -1,3 +1,31 @@
+.forms{
+    width: 15%;
+        
+}
+.row .row{
+    text-align: center;
+}
+
+.table-scroll{
+    padding-left: 5%;
+}
+
+.small-9, .small-3{
+    padding-right: 20%;
+}
+
+.small-3{
+    padding-right: 10%;
+}
+
+
+
+
+
+
+
+
+/*
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -146,3 +174,4 @@ div.actions button:hover {
   background: #252525;
 }
 
+*/
