@@ -1,5 +1,6 @@
-$(document).foundation(){
-    $('button').click(function() {
+//$(document).foundation(function(){
+$(document).ready(function() {
+  $('button').click(function() {
     var value = $('textarea.message').val();
     if (value != '') {
       var message = $('li.message').first().clone();
@@ -15,4 +16,4 @@ $(document).foundation(){
     }
   });
 });
-}
+//});
