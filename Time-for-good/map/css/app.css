@@ -40,6 +40,7 @@ body {
   color: black;
 }
 .search-box:not(:focus) {
+        margin: 0 auto;
   text-indent: -5000px;
 }
 
