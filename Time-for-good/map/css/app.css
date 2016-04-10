@@ -56,3 +56,9 @@ body {
   cursor: pointer;
 }
 
+
+
+
+#googleMap{
+    width:500px;height:380px;margin: 0 auto;
+}
