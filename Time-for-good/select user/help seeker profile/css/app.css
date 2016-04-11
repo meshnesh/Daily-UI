@@ -37,14 +37,14 @@ body {
 }
 
 .wrap {
-  max-width: 625px;
-  min-height: 450px;
-  max-height: 450px;
-  margin: 100px auto;
-  border-radius: 3px;
-  position: relative;
-  overflow: hidden;
-  background: url('https://2.bp.blogspot.com/-QmmNQfxkJuY/VaOWtdGCmKI/AAAAAAAAGAo/NM6IBuYRTHM/s1600/background2.jpg') top/cover no-repeat;
+        width: 85%;
+      min-height: 450px;
+      max-height: 450px;
+      margin: 100px auto;
+      border-radius: 3px;
+      position: relative;
+      overflow: hidden;
+      background: url('https://2.bp.blogspot.com/-QmmNQfxkJuY/VaOWtdGCmKI/AAAAAAAAGAo/NM6IBuYRTHM/s1600/background2.jpg') top/cover no-repeat;
 }
 
 .right-menu {
@@ -153,6 +153,7 @@ a.active:after {
 }
 
 .footer {
+        left: 15%;
   bottom: 0;
   width: 100%;
   min-height: 100px;
