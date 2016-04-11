@@ -108,10 +108,10 @@ a.active:after {
 }
 
 .avatar img {
-  height: 150px;
-  padding: 5px;
-  background: #fff;
-  border-radius: 50%;
+  height: 165px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 30%;
 }
 
 .bubble {
