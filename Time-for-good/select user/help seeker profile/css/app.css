@@ -44,7 +44,7 @@ body {
       border-radius: 3px;
       position: relative;
       overflow: hidden;
-      background: url('https://2.bp.blogspot.com/-QmmNQfxkJuY/VaOWtdGCmKI/AAAAAAAAGAo/NM6IBuYRTHM/s1600/background2.jpg') top/cover no-repeat;
+      background: linear-gradient(to left, #fff , #2c3e50);
 }
 
 .right-menu {
