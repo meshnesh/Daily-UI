@@ -36,7 +36,7 @@ html, body {
     .card .image .title {
       position: absolute;
       bottom: 0;
-      left: 0;
+      left: 21%;
       padding: 1.3rem;
       color: #fff; }
     .card .image img {
