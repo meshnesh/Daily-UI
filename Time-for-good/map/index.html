@@ -7,6 +7,7 @@
     <title>Maps</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/app.css" />
+      <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
       
       
 <!--      Script for map intergration-->
@@ -58,17 +59,33 @@ google.maps.event.addDomListener(window, 'load', initialize);
   <body>
 <!--search form section-->
       
-    
+<!--    header-->
           <h3>Where can you help</h3>
-
+<!--end of header-->
+      
+<!--      LOCATION SECTION -->
+      
+      
+      <label>
+  <select>
+    <option value="husker">Within 10 Miles</option>
+    <option value="starbuck">Within 20 Miles</option>
+    <option value="hotdog">Within 30 Miles</option>
+    <option value="apollo">Within 40 Miles</option>
+  </select>
+</label>
+      
+      
+      
+<!--      END OF LOCATION SECTION-->
       
       
 <div class="column row">
 
-            <form class="search-container" action="//llamaswill.tumblr.com/search">
-              <input id="search-box" type="text" class="search-box" name="q" />
-              <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
-              <input type="submit" id="search-submit" />
+            <form class="search-container" action="">
+              <input id="search-box" type="text" class="search-box ion-search" name="q" />
+               <label for="search-box"><span class=""></span></label>
+              <input type="submit" id="search-submit"/>
             </form>
       
 </div>

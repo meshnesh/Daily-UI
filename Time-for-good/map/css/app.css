@@ -7,6 +7,14 @@ h3{
     text-align: center;
    
 }
+/*LABEL LOCATIN*/
+
+label{
+        width: 15%;
+    margin: 0 auto;
+}
+
+/*END OF LABEL LOCATION*/
 
 /*search box*/
 
