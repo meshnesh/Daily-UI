@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maps</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+      
+      
+<!--      Script for map intergration-->
+      
+      
+      <script
+src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+var myCenter=new google.maps.LatLng(-1.2921,36.8219);
+
+function initialize()
+{
+var mapProp = {
+  center: myCenter,
+  zoom:5,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+  title:'Click to zoom'
+  });
+
+marker.setMap(map);
+
+// Zoom to 9 when clicking on marker
+google.maps.event.addListener(marker,'click',function() {
+  map.setZoom(9);
+  map.setCenter(marker.getPosition());
+  });
+     
+google.maps.event.addListener(map,'center_changed',function() {
+// 3 seconds after the center of the map has changed, pan back to the marker
+  window.setTimeout(function() {
+    map.panTo(marker.getPosition());
+  },3000);
+  });
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+      
+      
+<!--      end of scriot intergration-->
+  </head>
+  <body>
+<!--search form section-->
+      
+      
+<div class="column row">
+
+
+
+            <form class="search-container" action="//llamaswill.tumblr.com/search">
+              <input id="search-box" type="text" class="search-box" name="q" />
+              <label for="search-box"><span class="glyphicon glyphicon-search search-icon"></span></label>
+              <input type="submit" id="search-submit" />
+            </form>
+      
+      
+</div>
+      
+<!--      end of form section-->
+      
+      
+<!--      map section-->
+      
+      <div id="googleMap" style="width:500px;height:380px;"></div>
+      
+      
+<!--      end of map section-->
+      
+      
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
