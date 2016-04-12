@@ -74,3 +74,13 @@ h3{
     width:500px;height:380px;margin: 0 auto;
 }
 /*end of google map*/
+
+/*button img*/
+
+img{
+        height: 10%;
+    width: 10%;
+}
+.next{
+    float: right;
+}
