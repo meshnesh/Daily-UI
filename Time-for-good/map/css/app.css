@@ -1,6 +1,14 @@
 body {
   margin: 5%;
+    background: linear-gradient(to left, #fff , #2c3e50);
 }
+h3{
+    color: azure;
+    text-align: center;
+   
+}
+
+/*search box*/
 
 .search-box {
   -webkit-transition: width 0.6s, border-radius 0.6s, background 0.6s, box-shadow 0.6s;
@@ -56,9 +64,13 @@ body {
   cursor: pointer;
 }
 
+/*end of search box*/
 
 
+
+/*google map code*/
 
 #googleMap{
     width:500px;height:380px;margin: 0 auto;
 }
+/*end of google map*/
