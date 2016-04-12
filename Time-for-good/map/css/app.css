@@ -92,3 +92,16 @@ img{
 .next{
     float: right;
 }
+
+
+
+
+/*SKILLS.HTML FIELDSET SECTION*/
+
+fieldset{
+    width: 80%;
+       margin: 1.25rem auto;
+}
+
+
+/*END OF FIELDSET SECTION*/

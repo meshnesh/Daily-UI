@@ -2269,7 +2269,8 @@ legend {
 .fieldset {
   border: 1px solid #cacaca;
   padding: 1.25rem;
-  margin: 1.125rem 0; }
+/*  margin: 1.125rem 0; */
+}
   .fieldset legend {
     background: #fefefe;
     padding: 0 0.1875rem;
