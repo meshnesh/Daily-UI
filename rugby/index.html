@@ -1,13 +1,16 @@
+<!doctype html>
+<html ng-app='calendarApp' ng-cloak='true'></html>
 <head>
 	     <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'> 
 	<link rel='stylesheet' href='css/style.css' />
+    <script src="js/main.js"></script>
 </head>
 
 <body>
 	<div class="main">
 		<div class="container">
 			<h1>Move</h1>
-			<p>Form healthy habits to take your fitness to the next level.</p>
+			<p>Lets party y'all.</p>
 			<a class="btn-start" href="#">Start Now</a>
 		</div>
 	</div>
@@ -36,13 +39,55 @@
 		</div>
 	</div>
 
-
+<!--CALENDER SECTION-->
 	<div class="feature">
 		<div class="container">
-			<h1>Move. Rest. Recover. Move</h1>
+            
+<!--
+			<div class='calendar' ng-controller='calendarController as calendar'>
+  <div class='calendar_left'>
+    <div class='header'>
+      <i class='material-icons' ng-click='calendar.prev()'>navigate_before</i>
+      <h1>{{calendar.month}}</h1>
+      <i class='material-icons' ng-click='calendar.next()'>navigate_next</i>
+    </div>
+    <div class='days'>
+      <div class='day_item'>Mon</div>
+      <div class='day_item'>Tue</div>
+      <div class='day_item'>Wed</div>
+      <div class='day_item'>Thu</div>
+      <div class='day_item'>Fri</div>
+      <div class='day_item'>Sat</div>
+      <div class='day_item'>Sun</div>
+    </div>
+    <div class='dates'></div>
+  </div>
+  <div class='calendar_right'>
+    <div class='list'>
+      <ul>
+        <li class='bounce-in' ng-repeat='events in calendar.events' ng-show='events.id === calendar.dataId'>
+          <span class='type'>It's a {{ events.type }} thing -</span>
+          <span class='description'>{{ events.description }}</span>
+        </li>
+      </ul>
+    </div>
+    <form ng-submit='calendar.add()'>
+      <input ng-model='calendar.description' placeholder='Enter a task for this day' type='text'>
+        <select ng-model='calendar.type' placeholder='calendar.type'>
+          <option value='Social'>Social</option>
+          <option value='Work'>Work</option>
+        </select>
+      </input>
+    </form>
+  </div>
+</div>
+-->
 
 		</div>
 	</div>
+
+
+<!--END OF CALENDER SECTION-->
 
 	<div class="supporting">
 		<div class="container">
