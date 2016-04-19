@@ -1,10 +1,13 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="en">
 
 <head>
-    <title>
-        User profile
-    </title>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User profile</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/app.css" />
 </head>
 <div class="card">
@@ -16,14 +19,33 @@
     </header>
     <article>
         <p>Tommy is a dog, he likes bones, sleeping and backend doggy.</p>
-        <ul class="list-unstyled">
-            <li><a href="https://twitter.com/"><i class="fa fa-fw fa-facebook"></i> Facebook</a></li>
-            <li><a href="https://github.com/"><i class="fa fa-fw fa-linked"></i> Linked</a></li>
-        </ul>
+        <div class="row medium-uncollapse large-collapse">
+            <ul class="list-unstyled">
+                <div class="small-6 columns">
+                    <li><a href="https://facebook.com/"><i class="fa fa-fw fa-facebook"></i> Facebook</a></li>
+                </div>
+                <div class="small-6 columns">
+                    <li><a href="https://linked.com/"><i class="fa fa-fw fa-linked"></i> Linked</a></li>
+                </div>
+            </ul>
+        </div>
+
+
+
+
     </article>
 
     <footer>
-        <h3>Find Selina Kyle online</h3>
+        <label>Multiple Select Menu
+            <select multiple>
+                <option value="showboat">Mawing Lawns</option>
+<!--
+                <option value="redwing">Redwing</option>
+<option value="narcho">Narcho</option>
+<option value="hardball">Hardball</option>
+-->
+            </select>
+        </label>
         <!--
         <ul class="list-unstyled">
     <li><a href="https://twitter.com/"><i class="fa fa-fw fa-twitter"></i> Twitter</a></li>
