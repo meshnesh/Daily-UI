@@ -123,34 +123,6 @@ fieldset {
 
 /*VIEW ANOTHER PROFILE*/
 
-
-/*
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    margin: 0;
-    padding: 0;
-    line-height: normal;
-    font-weight: normal;
-}
-
-h1 {
-    font-size: 3rem;
-}
-
-h2,
-h3 {
-    font-size: 1.5rem;
-}
-
-h3 {
-    margin-bottom: .5em;
-}
-*/
-
 a {
     color: #2196F3;
     text-decoration: none;
